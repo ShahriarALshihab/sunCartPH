@@ -1,10 +1,5 @@
 # 🌞 SunCart – Summer Essentials Store
 
-## 🔗 Live Site
-
-https://your-project-name.vercel.app
-
----
 
 ## 📌 Overview
 
