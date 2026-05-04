@@ -12,7 +12,7 @@ const slides = [
     badge: "🔥 Limited Time Deal",
     cta: "Shop Now",
     bgImage:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1400&q=80",
+      "https://i.ibb.co/bMWTYZXd/slide1.jpg",
     overlay: "from-orange-900/70 via-amber-800/40 to-transparent",
   },
   {
@@ -23,7 +23,7 @@ const slides = [
     badge: "🌊 Sea Season Special",
     cta: "Explore Beach Gear",
     bgImage:
-      "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1400&q=80",
+      "https://i.ibb.co/zW2VqwMR/slide2.jpg",
     overlay: "from-sky-900/70 via-blue-800/40 to-transparent",
   },
   {
@@ -34,7 +34,7 @@ const slides = [
     badge: "✨ Just Dropped",
     cta: "Browse Products",
     bgImage:
-      "https://images.unsplash.com/photo-1473496169904-658ba7574b0d?w=1400&q=80",
+      "https://i.ibb.co/QjX7v6xg/slide3.jpg",
     overlay: "from-rose-900/70 via-orange-800/40 to-transparent",
   },
 ];

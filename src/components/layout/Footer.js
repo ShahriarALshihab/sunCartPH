@@ -100,7 +100,7 @@ export default function Footer() {
             © {new Date().getFullYear()} SunCart Bangladesh. All rights
             reserved.
           </p>
-          <p className="mt-1">Made with ☀️ in Dhaka, Bangladesh</p>
+          
         </div>
       </div>
     </footer>

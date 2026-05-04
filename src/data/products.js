@@ -8,7 +8,7 @@ export const products = [
     stock: 15,
     description:
       "Stylish UV400 protection sunglasses with polarized lenses, perfect for Dhaka's intense summer sun. Lightweight frame with anti-glare coating for comfortable all-day wear. Available in multiple frame colors.",
-    image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
+    image: "https://i.ibb.co/W4myXWKR/sunglass.jpg",
     category: "Accessories",
   },
   {
@@ -20,7 +20,7 @@ export const products = [
     stock: 20,
     description:
       "Breathable 100% linen panjabi in classic off-white, ideal for hot and humid Bangladeshi summers. Loose fit with traditional embroidery at collar and cuffs. Machine washable.",
-    image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80",
+    image: "https://i.ibb.co/GvXMVGSs/pnjabi.jpg",
     category: "Clothing",
   },
   {
@@ -32,7 +32,7 @@ export const products = [
     stock: 30,
     description:
       "Water-resistant SPF 50 sunscreen lotion with vitamin C and aloe vera. Provides 8-hour protection from UVA & UVB rays, perfect for outdoor activities in Bangladesh.",
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&q=80",
+    image: "https://i.ibb.co/QvDCfntv/ltn.jpg",
     category: "Skincare",
   },
   {
@@ -44,7 +44,7 @@ export const products = [
     stock: 25,
     description:
       "Handwoven bamboo hat with wide brim for ultimate sun protection at Cox's Bazar or any outdoor setting. Adjustable chin strap ensures a secure fit on windy beach days.",
-    image: "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&q=80",
+    image: "https://i.ibb.co/4RBj6rCv/hat.jpg",
     category: "Accessories",
   },
   {
@@ -56,7 +56,7 @@ export const products = [
     stock: 18,
     description:
       "Lightweight cotton kurti with matching palazzo pants in vibrant tropical floral print. Machine washable, perfect for casual summer days and Eid outings. Available in S–XL.",
-    image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&q=80",
+    image: "https://i.ibb.co/60BvM8fS/kurti.jpg",
     category: "Clothing",
   },
   {
@@ -68,7 +68,7 @@ export const products = [
     stock: 40,
     description:
       "Cooling 98% pure aloe vera gel that soothes sunburned and irritated skin. Non-sticky formula absorbs instantly, leaving skin hydrated and refreshed all day long.",
-    image: "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=600&q=80",
+    image: "https://i.ibb.co/k6yPghmv/alovera-gel.jpg",
     category: "Skincare",
   },
   {
@@ -80,7 +80,7 @@ export const products = [
     stock: 12,
     description:
       "Large capacity waterproof tote bag with wet/dry compartments. Perfect for Cox's Bazar trips — holds towels, sunscreen, snacks, and a change of clothes comfortably.",
-    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+    image: "https://i.ibb.co/1JQs7svN/bag.jpg",
     category: "Beach Accessories",
   },
   {
@@ -92,7 +92,7 @@ export const products = [
     stock: 22,
     description:
       "Ultra-lightweight quick-drying swim shorts with UPF 40+ sun protection fabric. Features side pockets with mesh lining and adjustable waistband. Dries in minutes.",
-    image: "https://images.unsplash.com/photo-1544966503-7d99b979d3cf?w=600&q=80",
+    image: "https://i.ibb.co/v4C6Q0gd/pant.jpg",
     category: "Clothing",
   },
   {
@@ -104,7 +104,7 @@ export const products = [
     stock: 35,
     description:
       "Refreshing face mist with rose water, glycerin, and green tea extract. Keeps skin hydrated and cool throughout the hot Bangladeshi summer day. 150ml travel-size bottle.",
-    image: "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=600&q=80",
+    image: "https://i.ibb.co/xS5nZwJS/facemist.jpg",
     category: "Skincare",
   },
   {
@@ -116,7 +116,7 @@ export const products = [
     stock: 8,
     description:
       "Heavy-duty 8-rib beach umbrella with UPF 50+ silver coating. Wind-resistant design, folds to a compact size for easy transport to Patenga or Cox's Bazar beach.",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80",
+    image: "https://i.ibb.co/DPVp6zxD/chata.jpg",
     category: "Beach Accessories",
   },
   {
@@ -128,7 +128,7 @@ export const products = [
     stock: 50,
     description:
       "Refreshing electrolyte powder mix in mango and lemon flavors. Replenishes essential minerals lost through sweat — ideal for hot Bangladeshi summer days and outdoor activities.",
-    image: "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=600&q=80",
+    image: "https://i.ibb.co/JjmYZZ6Q/drink.jpg",
     category: "Health & Wellness",
   },
   {
@@ -140,7 +140,7 @@ export const products = [
     stock: 28,
     description:
       "Frizz-control hair serum specifically formulated for high-humidity tropical climates. Creates a protective shield against monsoon moisture while adding brilliant shine. 50ml bottle.",
-    image: "https://images.unsplash.com/photo-1526045612212-70caf35c14df?w=600&q=80",
+    image: "https://i.ibb.co/Z7KLyCY/serum.jpg",
     category: "Hair Care",
   },
 ];

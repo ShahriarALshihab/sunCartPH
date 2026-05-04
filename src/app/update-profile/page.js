@@ -127,9 +127,7 @@ useEffect(() => {
                 onChange={(e) => setImage(e.target.value)}
                 className="input-field"
               />
-              <p className="text-xs text-stone-400 mt-1.5">
-                Tip: Use an image URL from Google, GitHub, or any image host.
-              </p>
+            
             </div>
 
             <div className="flex gap-3 pt-2">

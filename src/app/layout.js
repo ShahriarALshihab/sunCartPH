@@ -2,6 +2,17 @@ import "./globals.css";
 import { Toaster } from "react-hot-toast";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import { Playfair_Display, DM_Sans } from "next/font/google";
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-display",
+});
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-body",
+});
 
 export const metadata = {
   title: "SunCart – Summer Essentials Store",
@@ -11,7 +22,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme="suncart">
+    <html
+      lang="en"
+      data-theme="suncart"
+      className={`${playfair.variable} ${dmSans.variable}`}
+    >
       <body>
         <Toaster
           position="top-right"

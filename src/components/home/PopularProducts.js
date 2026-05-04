@@ -24,7 +24,7 @@ export default function PopularProducts() {
   return (
     <section className="py-20 bg-linear-to-b from-white to-amber-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
+       
         <div className="text-center mb-14">
           <span className="inline-block bg-amber-100 text-amber-700 px-4 py-1 rounded-full text-sm font-semibold mb-3">
             🔥 Trending Now
@@ -82,7 +82,7 @@ export default function PopularProducts() {
                     style={{ fontFamily: "'Playfair Display', serif" }}
                     className="text-2xl font-bold text-orange-600"
                   >
-                    {product.price.toLocaleString()}BDT
+                  <span className="text-sm">BDT</span> {product.price.toLocaleString()}
                   </p>
                   <Link
                     href={`/product/${product.id}`}

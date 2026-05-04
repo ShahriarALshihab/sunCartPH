@@ -53,13 +53,13 @@ export default function RegisterPage() {
 
   return (
     <div className="min-h-screen bg-linear-to-br from-sky-50 via-amber-50 to-rose-50 flex items-center justify-center px-4 py-16">
-      {/* Decorative blobs */}
+      
       <div className="absolute top-0 right-0 w-72 h-72 bg-sky-300/20 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2" />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-amber-300/20 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2" />
 
       <div className="relative w-full max-w-md">
         <div className="glass-card p-8 md:p-10">
-          {/* Logo */}
+        
           <div className="text-center mb-8">
             <div className="w-14 h-14 bg-linear-to-br from-sky-400 to-amber-500 rounded-full flex items-center justify-center text-2xl mx-auto mb-3 shadow-lg">
               🌊
@@ -67,7 +67,7 @@ export default function RegisterPage() {
             <h1 style={{ fontFamily: "'Playfair Display', serif" }} className="text-3xl font-bold text-stone-900">
               Create Account
             </h1>
-            <p className="text-stone-500 mt-1 text-sm">Join SunCart — it&apos;s free!</p>
+            <p className="text-stone-500 mt-1 text-sm">Join SunCart!</p>
           </div>
 
          
@@ -104,7 +104,7 @@ export default function RegisterPage() {
                 type="text"
                 name="name"
                 required
-                placeholder="Rahim Hossain"
+                placeholder="Your name"
                 value={form.name}
                 onChange={handleChange}
                 className="input-field"
@@ -124,19 +124,7 @@ export default function RegisterPage() {
               />
             </div>
 
-            <div>
-              <label className="block text-sm font-semibold text-stone-700 mb-1.5">
-                Photo URL <span className="text-stone-400 font-normal">(optional)</span>
-              </label>
-              <input
-                type="url"
-                name="photoUrl"
-                placeholder="https://example.com/photo.jpg"
-                value={form.photoUrl}
-                onChange={handleChange}
-                className="input-field"
-              />
-            </div>
+          
 
             <div>
               <label className="block text-sm font-semibold text-stone-700 mb-1.5">Password</label>

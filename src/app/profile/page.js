@@ -65,12 +65,12 @@ const joinDate = user?.createdAt
 
           
           <div className="px-6 pb-6">
-            <div className="flex flex-col sm:flex-row sm:items-end gap-4 -mt-10 mb-4">
+            <div className="flex flex-col sm:flex-row sm:items-end gap-4 mt-3 mb-3">
               <div className="relative w-20 h-20 rounded-2xl overflow-hidden border-4 border-white shadow-xl shrink-0">
                 {user.image ? (
                   <Image src={user.image} alt={user.name || "User"} fill className="object-cover" />
                 ) : (
-                  <div className="w-full h-full bg-linear-to-br from-amber-400 to-rose-500 flex items-center justify-center text-white text-3xl font-bold">
+                  <div className="w-full h-3/4 bg-linear-to-br from-amber-200 to-rose-400 flex items-center justify-center text-white text-3xl font-bold">
                     {user.name?.[0]?.toUpperCase() || "U"}
                   </div>
                 )}
