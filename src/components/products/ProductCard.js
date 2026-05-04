@@ -44,7 +44,8 @@ export default function ProductCard({ product }) {
               style={{ fontFamily: "'Playfair Display', serif" }}
               className="text-xl font-bold text-orange-600"
             >
-              ৳{product.price.toLocaleString()}
+              <span className="text-sm">BDT</span>{" "}
+              {product.price.toLocaleString()}
             </p>
             <p className="text-xs text-stone-400">{product.stock} in stock</p>
           </div>
