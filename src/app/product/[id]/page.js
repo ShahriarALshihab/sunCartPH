@@ -170,10 +170,10 @@ export default function ProductDetailPage({ params }) {
               </button>
               <button
                 onClick={() => toast.success("Added to wishlist!")}
-                className="btn-outline-sun py-3 px-5 text-xl"
+                className="btn-outline-sun py-2 px-3 text-xl"
                 aria-label="Add to wishlist"
               >
-                🤍
+                ❤️
               </button>
             </div>
           </div>
